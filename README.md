@@ -1,9 +1,9 @@
 # About
-这是慕课网上[Vue+Webpack打造todo应用](https://www.imooc.com/learn/935)课程的源码
+学习慕客网上慕课网上[Vue+Webpack打造todo应用](https://www.imooc.com/learn/935)，增加了注释
 
 # 使用方法
 ```
-git clone https://github.com/Jokcy/vue-todo-tech.git
+git clone git@github.com:jiaen188/vue-todo-demo.git
 ```
 进入项目目录，运行
 ```
@@ -13,4 +13,3 @@ npm install
 ```
 npm run dev
 ```
-开始开发项目
