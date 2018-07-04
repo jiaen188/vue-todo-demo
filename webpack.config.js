@@ -69,12 +69,13 @@ if (isDev) {
     // devServer 在webpack2.0后才有的
     config.devServer = {
         port: 8000,
-        host: '127.0.0.1', // 好处： 可以在别人电脑上通过ip访问，或者手机
+        // host: '127.0.0.1', // 好处： 可以在别人电脑上通过ip访问，或者手机
+        host: '0.0.0.0', // 好处： 可以在别人电脑上通过ip访问，或者手机
         overlay: { // 编译的时候出现错误，就显示到网页上
             errors: true
         },
         hot: true, // 热更新，只更新修改的页面，不会刷新整个页面
-        open: true // 自动打开网页
+        // open: true // 自动打开网页
     }
     // 热更新的相关插件
     config.plugins.push(
